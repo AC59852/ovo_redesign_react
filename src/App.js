@@ -1,16 +1,27 @@
-import CounterExample from './components/CounterExample';
-import HelloWorld from './components/HelloWorld';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Header from './components/Header'
+import Home from './views/Home'
+import Shop from './views/Shop'
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Router>
+      
+        <Header />
 
-      <HelloWorld name="Austin"/>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-      <Footer />
+        <Route exact path="/shop">
+            <Shop />
+        </Route>
+      </Switch>
+
+      </Router>
     </div>
   );
 }

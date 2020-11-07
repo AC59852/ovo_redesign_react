@@ -19200,9 +19200,125 @@ video {
   animation: bounce 1s infinite;
 }
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.App {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
 .nav-font{
   font-family: 'Bebas Neue';
   color: #A39161;
+}
+
+.navLinks {
+  font-size: 84px;
+}
+
+.navBck {
+  background-image: url('./img/owl.png');
+  background-size: 218%;
+  background-position: 25% 80%;
+  background-color: #171717;
+  max-width: 450px;
+}
+
+.topHeader {
+  width: 100%;
+  max-width: 450px;
+}
+
+.homeTop {
+  color: #A39161;
+  background: linear-gradient(180deg, rgba(23,23,23,1) 0%, rgba(25,25,25,1) 50%, rgba(0,0,0,1) 100%);
+  height: 812px;
+}
+
+.homeTopTitle, .homeBottom {
+  font-family: 'Bebas Neue'
+}
+
+.homeBottom {
+  color: #A39161;
+}
+
+.homeTopTitle div {
+  font-size: 104px;
+}
+
+.homeTopTitle h1 {
+  letter-spacing: 0.3rem;
+}
+
+.faNavIcon {
+  color: #A39161;
+}
+
+.navCon {
+  width: 90%;
+}
+
+.homeBottom {
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(25,25,25,1) 90%, rgb(23, 23, 23) 100%);
+  height: 812px;
+}
+
+.homeBottom h2 {
+  font-size: 84px;
+}
+
+.homeBottom div img {
+  border: solid 2px #A39161;
 }
 
 @media (min-width: 640px) {
