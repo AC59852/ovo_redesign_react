@@ -15,7 +15,7 @@ function Navigation() {
 
     return (
         <nav>
-            <div className="mt-6 mb-10">
+            <div className="">
                 <span className="pr-4 cursor-pointer text-xl"><FontAwesomeIcon className="faNavIcon" icon={faShoppingBag}/></span>
                 <span onClick={() => setShowMenu(true)} className="text-xl cursor-pointer"><FontAwesomeIcon className="faNavIcon" icon={faBars}/></span>
             </div>

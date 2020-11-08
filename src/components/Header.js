@@ -5,9 +5,9 @@ import logo from '../img/logo.png'
 function Header() {
     return (
         <header className="fixed topHeader">
-            <div className="navCon mx-auto p-3 flex justify-between items-center">
+            <div className="navCon mx-auto px-8 h-16 flex justify-between items-center">
                 <span className="w-10">
-                    <img className="-mt-5" src={logo} alt="Logo" />
+                    <img src={logo} alt="Logo" />
                     </span>
 
                 <Navigation />
