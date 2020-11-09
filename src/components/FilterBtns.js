@@ -7,7 +7,7 @@ function FilterBtns(props) {
     function filterA() {
         // terrible way of doing this, but idk the way to actually do it in react
         let elems = document.getElementsByClassName("productCard");
-        let elems2 = document.getElementsByClassName("Unbranded");
+        let elems2 = document.getElementsByClassName("sweater");
 
         for (var i=0;i<elems.length;i+=1){ elems[i].classList.add("hide"); }
         for (var i=0;i<elems2.length;i+=1){ elems2[i].classList.remove("hide"); }
@@ -16,7 +16,7 @@ function FilterBtns(props) {
 
     function filterB() {
         let elems = document.getElementsByClassName("productCard");
-        let elems2 = document.getElementsByClassName("Small");
+        let elems2 = document.getElementsByClassName("shirt");
 
         for (var i=0;i<elems.length;i+=1){ elems[i].classList.add("hide"); }
         for (var i=0;i<elems2.length;i+=1){ elems2[i].classList.remove("hide"); }
@@ -25,7 +25,7 @@ function FilterBtns(props) {
 
     function filterC() {
         let elems = document.getElementsByClassName("productCard");
-        let elems2 = document.getElementsByClassName("Refined");
+        let elems2 = document.getElementsByClassName("hat");
 
         for (var i=0;i<elems.length;i+=1){ elems[i].classList.add("hide"); }
         for (var i=0;i<elems2.length;i+=1){ elems2[i].classList.remove("hide"); }
@@ -34,7 +34,7 @@ function FilterBtns(props) {
 
     function filterD() {
         let elems = document.getElementsByClassName("productCard");
-        let elems2 = document.getElementsByClassName("Handcrafted");
+        let elems2 = document.getElementsByClassName("bottoms");
 
         for (var i=0;i<elems.length;i+=1){ elems[i].classList.add("hide"); }
         for (var i=0;i<elems2.length;i+=1){ elems2[i].classList.remove("hide"); }
@@ -43,7 +43,7 @@ function FilterBtns(props) {
 
     function filterE() {
         let elems = document.getElementsByClassName("productCard");
-        let elems2 = document.getElementsByClassName("Tasty");
+        let elems2 = document.getElementsByClassName("jacket");
 
         for (var i=0;i<elems.length;i+=1){ elems[i].classList.add("hide"); }
         for (var i=0;i<elems2.length;i+=1){ elems2[i].classList.remove("hide"); }
