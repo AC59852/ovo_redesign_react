@@ -139,6 +139,17 @@ table {
   border: solid 3px #A39161;
 }
 
+.shopItemCon {
+  width: 73%;
+}
+
+.itemImgCon img {
+  border-color: #A39161;
+}
+
+.sizeBtnCon {
+  height: 250px;
+}
 
 
 

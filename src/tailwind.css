@@ -19336,6 +19336,18 @@ table {
   border: solid 3px #A39161;
 }
 
+.shopItemCon {
+  width: 73%;
+}
+
+.itemImgCon img {
+  border-color: #A39161;
+}
+
+.sizeBtnCon {
+  height: 250px;
+}
+
 .loader {
   border: 5px solid #f3f3f3;
   border-radius: 50%;
