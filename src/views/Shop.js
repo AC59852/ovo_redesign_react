@@ -60,11 +60,9 @@ function Shop() {
     if(products.data) {
         content = 
         products.data.map((product, key) => 
-            <div className="w-6/12 mx-auto">
                 <ProductCard
                     product={product}
                 />
-            </div>
         )
     }
 
@@ -72,12 +70,12 @@ function Shop() {
 
     const transitions = useTransition(showFilters, null, {
         from: {height: '0.01px' },
-        enter: {height:'200px'},
+        enter: {height:'280px'},
         leave: {height: '0.01px' }
         })
 
     return (
-        <div className="shopBck h-full pt-24">
+        <div className="shopBck min-h-screen pt-24">
             <div className="filterCon w-4/6 mx-auto mb-8">
             <div className="flex justify-center items-center border-solid border-2 py-3 text-3xl tracking-widest">
                 <h2 className="text-center">Filter By Item</h2>
