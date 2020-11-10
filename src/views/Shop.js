@@ -77,9 +77,9 @@ function Shop() {
     return (
         <div className="shopBck min-h-screen pt-24">
             <div className="filterCon w-4/6 mx-auto mb-8">
-            <div className="flex justify-center items-center border-solid border-2 py-3 text-3xl tracking-widest">
+            <div className="flex justify-center items-center border-solid border-2 py-3 text-3xl tracking-widest cursor-pointer" onClick={() => setShowFilters(!showFilters)}>
                 <h2 className="text-center">Filter By Item</h2>
-                <FontAwesomeIcon onClick={() => setShowFilters(!showFilters)} className="text-sm -mt-1 cursor-pointer ml-3" icon={faPlus}/>
+                <FontAwesomeIcon className="text-sm -mt-1 cursor-pointer ml-3" icon={faPlus}/>
             </div>
                 { transitions.map(({item, key, props}) => 
                     item && <animated.div className="overflow-hidden" key={key} style={props}>

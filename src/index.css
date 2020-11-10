@@ -165,8 +165,18 @@ table {
   height: 250px;
 }
 
+.checkoutCon {
+  width: 80%;
+}
 
+.checkoutRemove {
+  border-color: #A39161;
+}
 
+.checkoutBtn {
+  color: #181818;
+  background-color: #A39161;
+}
 
 
 .loader {

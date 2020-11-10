@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
+import { faMinus } from '@fortawesome/free-solid-svg-icons'
 
 function FilterBtns(props) {
 
@@ -62,29 +62,29 @@ function FilterBtns(props) {
     
     return(
         <div className="mx-auto mt-2 flex-column filterBtns">
-            <div className="border-solid border-2 flex justify-between items-center px-4 pt-3 pb-2">
-                <h3 className="text-xl">Filter All</h3>
-                <FontAwesomeIcon onClick={() => filterAll()} className="text-sm -mt-1 cursor-pointer ml-3" icon={faPlus}/>
+            <div onClick={() => filterAll()} className="border-solid border-2 flex justify-between items-center px-4 pt-3 pb-2">
+                <h3 className="text-xl cursor-pointer">Filter All</h3>
+                <FontAwesomeIcon className="text-sm -mt-1 cursor-pointer ml-3" icon={faMinus}/>
             </div>
-            <div className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
-                <h3 className="text-xl">Sweaters</h3>
-                <FontAwesomeIcon onClick={() => filterA()} className="text-sm -mt-1 cursor-pointer ml-3" icon={faPlus}/>
+            <div onClick={() => filterA()} className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
+                <h3 className="text-xl cursor-pointer">Sweaters</h3>
+                <FontAwesomeIcon className="text-sm -mt-1 cursor-pointer ml-3" icon={faMinus}/>
             </div>
-            <div className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
-                <h3 className="text-xl">Shirts</h3>
-                <FontAwesomeIcon onClick={() => filterB()} className="text-sm -mt-1 cursor-pointer ml-3" icon={faPlus}/>
+            <div onClick={() => filterB()} className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
+                <h3 className="text-xl cursor-pointer">Shirts</h3>
+                <FontAwesomeIcon className="text-sm -mt-1 cursor-pointer ml-3" icon={faMinus}/>
             </div>
-            <div className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
-                <h3 className="text-xl">Hats</h3>
-                <FontAwesomeIcon onClick={() => filterC()} className="text-sm -mt-1 cursor-pointer ml-3" icon={faPlus}/>
+            <div onClick={() => filterC()} className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
+                <h3 className="text-xl cursor-pointer">Hats</h3>
+                <FontAwesomeIcon className="text-sm -mt-1 cursor-pointer ml-3" icon={faMinus}/>
             </div>
-            <div className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
-                <h3 className="text-xl">Bottoms</h3>
-                <FontAwesomeIcon onClick={() => filterD()} className="text-sm -mt-1 cursor-pointer ml-3" icon={faPlus}/>
+            <div onClick={() => filterD()} className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
+                <h3 className="text-xl cursor-pointer">Bottoms</h3>
+                <FontAwesomeIcon className="text-sm -mt-1 cursor-pointer ml-3" icon={faMinus}/>
             </div>
-            <div className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
-                <h3 className="text-xl">Jackets</h3>
-                <FontAwesomeIcon onClick={() => filterE()} className="text-sm -mt-1 cursor-pointer ml-3" icon={faPlus}/>
+            <div onClick={() => filterE()} className="border-solid border-t-0 border-2 flex justify-between items-center px-4 pt-3 pb-2">
+                <h3 className="text-xl cursor-pointer">Jackets</h3>
+                <FontAwesomeIcon className="text-sm -mt-1 cursor-pointer ml-3" icon={faMinus}/>
             </div>
         </div>
     )

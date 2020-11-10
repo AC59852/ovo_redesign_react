@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
 import {useTransition, animated} from 'react-spring'
@@ -15,8 +16,8 @@ function Navigation() {
 
     return (
         <nav>
-            <div className="">
-                <span className="mr-4 cursor-pointer text-xl"><FontAwesomeIcon className="faNavIcon" icon={faShoppingBag}/></span>
+            <div>
+                <span className="mr-4 cursor-pointer text-xl"><Link to="/checkout"><FontAwesomeIcon className="faNavIcon" icon={faShoppingBag}/></Link></span>
                 <span onClick={() => setShowMenu(true)} className="text-xl cursor-pointer"><FontAwesomeIcon className="faNavIcon" icon={faBars}/></span>
             </div>
 

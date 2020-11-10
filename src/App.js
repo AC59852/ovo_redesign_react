@@ -5,6 +5,7 @@ import Home from './views/Home'
 import Shop from './views/Shop'
 import Product from './views/Product'
 import Stores from './views/Stores'
+import Checkout from './views/Checkout'
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path="/stores">
             <Stores />
+        </Route>
+        <Route path="/checkout">
+            <Checkout />
         </Route>
       </Switch>
 

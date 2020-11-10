@@ -81,9 +81,9 @@ function Product() {
             </div>
             <div>
             <div className="sizeBtnCon mx-auto mt-8">
-            <div className="flex justify-center items-center border-solid border-2 py-2 text-2xl tracking-wide">
+            <div className="flex justify-center items-center border-solid border-2 py-2 text-2xl tracking-wide cursor-pointer" onClick={() => setShowFilters(!showFilters)}>
                 <h2 className="text-center px-16">Select a Size</h2>
-                <FontAwesomeIcon onClick={() => setShowFilters(!showFilters)} className="text-sm cursor-pointer" icon={faMinus}/>
+                <FontAwesomeIcon className="text-sm cursor-pointer" icon={faMinus}/>
             </div>
                 { transitions.map(({item, key, props}) => 
                     item && <animated.div className="overflow-hidden" key={key} style={props}>
