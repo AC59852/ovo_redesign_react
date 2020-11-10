@@ -143,6 +143,20 @@ table {
   width: 73%;
 }
 
+.storeCon {
+  width: 73%;
+}
+
+.storeImg {
+  overflow: hidden;
+  height: 343px;
+}
+
+.storeCon img {
+  transform: scale(2);
+  margin-top: 35%;
+}
+
 .itemImgCon img {
   border-color: #A39161;
 }

@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Home from './views/Home'
 import Shop from './views/Shop'
 import Product from './views/Product'
+import Stores from './views/Stores'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path="/products/:id">
             <Product />
+        </Route>
+        <Route path="/stores">
+            <Stores />
         </Route>
       </Switch>
 
