@@ -26,4 +26,4 @@ tricky to get used to, coming directly from Vue and no in between, but the produ
 ## Usage
 Because this is a fan remake, there is nothing to hide, and is not meant for any sort of publicity, profit or recognition.
 <br>
-We believe in creative expression, and we love certain brands, so we combined those two aspects and wanted to create something for what we enjoy, for no particular reason other than that. To view this site, visit <a href="https://ovo-redesign.herokuapp.com/">ovo-redesign.herokuapp.com</a> to check it out.
+We believe in creative expression, and we love certain brands, so we combined those two aspects and wanted to create something for what we enjoy, for no particular reason other than that. To view this site, visit <a href="https://ovo-redesign.web.app/">OVO-Redesign</a> to check it out.
